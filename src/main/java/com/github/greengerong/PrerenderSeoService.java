@@ -2,7 +2,7 @@ package com.github.greengerong;
 
 import com.google.common.base.Function;
 import com.google.common.base.Predicate;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.http.*;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -28,7 +28,7 @@ import java.util.Map;
 import java.util.regex.Pattern;
 
 import static com.google.common.collect.FluentIterable.from;
-import static org.apache.commons.lang.StringUtils.isNotBlank;
+import static org.apache.commons.lang3.StringUtils.isNotBlank;
 import static org.apache.http.HttpHeaders.CONTENT_LENGTH;
 import static org.apache.http.HttpHeaders.HOST;
 
