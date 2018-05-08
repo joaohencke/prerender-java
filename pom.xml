@@ -1,9 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+ <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.greengerong</groupId>
+    <groupId>shiftcode.qmc</groupId>
     <artifactId>prerender-java</artifactId>
-    <version>1.6.5-SNAPSHOT</version>
+    <version>1.6.6-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>prerender-java</name>
@@ -18,9 +18,9 @@
 
     </licenses>
     <scm>
-        <connection>scm:git:git@github.com:greengerong/prerender-java.git</connection>
-        <developerConnection>scm:git:git@github.com:greengerong/prerender-java.git</developerConnection>
-        <url>git@github.com:greengerong/prerender-java.git</url>
+        <connection>scm:https://github.com/joaohencke/prerender-java.git</connection>
+        <developerConnection>scm:https://github.com/joaohencke/prerender-java.git</developerConnection>
+        <url>git@github.com:joaohencke/prerender-java.git</url>
     </scm>
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -32,7 +32,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>4.11</junit.version>
         <mockito.version>1.9.5</mockito.version>
-        <guava.version>15.0</guava.version>
+        <guava.version>20.0</guava.version>
         <commons-lang.version>2.6</commons-lang.version>
         <commons-io.version>2.4</commons-io.version>
         <servlet-api.version>2.5</servlet-api.version>
@@ -45,7 +45,6 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
-            <classifier>cdi1.0</classifier>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
